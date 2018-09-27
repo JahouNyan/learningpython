@@ -1,0 +1,37 @@
+#Defining nutritional values of almonds
+calories = 590
+fat = 53
+carbohydrate = 19
+dietary_fiber = 9.9
+sugar = 4.6
+protein = 21
+
+#queries
+name = input ("Hello, what is your name? ")
+number_of_servings = input("How many servings of almonds have you had today? ")
+
+#calculate nutritional values
+number_of_servings = int(number_of_servings)
+total_calories = int(calories) * (number_of_servings)
+total_fat = int(fat) * (number_of_servings)
+total_carbohydrate = int(carbohydrate) * (number_of_servings)
+total_dietary_fiber = float(dietary_fiber) * int(number_of_servings)
+total_sugar = float(sugar) * int(number_of_servings)
+total_protein = int(protein) * (number_of_servings)
+
+#change to string
+number_of_servings = str(number_of_servings)
+total_calories = str(total_calories)
+total_fat = str(total_fat)
+total_carbohydrate = str(total_carbohydrate)
+total_dietary_fiber = str(total_dietary_fiber)
+total_sugar = str(total_sugar)
+total_protein = str(total_protein)
+
+
+
+#Display results
+print(name + ", today you had " + number_of_servings + " servings of almonds. The nutritional values are: ")
+print("Total calories: " + total_calories, "  Total fat: " + total_fat + "grams", "  Total carbohydrate: " + total_carbohydrate + "grams", "  Dietary fiber: " + total_dietary_fiber + "grams", "  Sugar: " + 
+total_sugar + "grams", "  Protein: " + total_protein + "grams")
+
