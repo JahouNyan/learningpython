@@ -1,0 +1,2 @@
+friends =["Peter", "Jane", "Simon"]
+print ("Peter" in friends)
