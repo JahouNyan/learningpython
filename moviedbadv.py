@@ -45,7 +45,7 @@ if request == "4":
        for genre in item["genres"]:
            genre.split(",")
        if genre == genrename:
-           print(f"{item['title']} movie is {genre}.")
+           print(f"{item['title']} movie is a {genre}.")
            
 
 if request == "5":
