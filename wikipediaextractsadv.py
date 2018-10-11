@@ -33,7 +33,6 @@ for lang, langname in languages.items():
     lines = r.text
     lines = json.loads(lines)    
     title = lines["title"]
-    extract = lines["extract"]
     print(title)
     #some articles don't have descriptions so:
     #description = lines["description"]
@@ -41,6 +40,7 @@ for lang, langname in languages.items():
         print ("No Description")
     else:
         print(f"The description on wikipedia is: {lines['description']}")
+    extract = lines["extract"]
     print(f"The extract is: {extract}")
 
 
