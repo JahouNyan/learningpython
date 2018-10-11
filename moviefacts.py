@@ -10,7 +10,7 @@ movie = [{
         "duration":87,
         "director":"George Lucas"}]
 #Loop over  keys and create a variable value containing value associated with the key.
-
+print 
 
 print(f"{movie['duration']} minutes") 
 #Add a new key called actors u get to this list in your loop, join them together as a string
