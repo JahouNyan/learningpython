@@ -31,6 +31,6 @@ print(title)
 if "description" not in lines:
     print ("No Description")
 else:
-    print(f"The description on wikipedia is: {description}")
+    print(f"The description on wikipedia is: {'description'}")
 extract = lines["extract"]
 print(f"The extract is: {extract}")

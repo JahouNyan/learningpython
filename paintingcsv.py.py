@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct  3 12:09:11 2018
-
-@author: Jahou
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct  3 11:32:14 2018
-
-@author: Jahou
-"""
 #open and manipulate a csv file
 newfile = open("paintings2.csv", "w")
 csv = open("paintings.csv")
